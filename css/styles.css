@@ -483,7 +483,6 @@ address {
 
 .social-list .foot {
     gap: 16px;
-    display: flex;
 }
 
 .social-title {
