@@ -61,7 +61,8 @@ address {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);;
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+    ;
 }
 
 .header .container {
@@ -233,7 +234,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    
+
 }
 
 .hero-list-text {
@@ -292,9 +293,14 @@ address {
     padding-left: 0;
 }
 
-.social-link {
+.social-item {
     width: 40px;
     height: 40px;
+}
+
+.social-link {
+    height: 100%;
+    width: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
@@ -475,8 +481,9 @@ address {
     flex-direction: column;
 }
 
-.social-list.foot {
+.social-list .foot {
     gap: 16px;
+    display: flex;
 }
 
 .social-title {
@@ -491,6 +498,12 @@ address {
 .footer-social-link {
     width: 40px;
     height: 40px;
+
+}
+
+.footer-item {
+    height: 100%;
+    width: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
@@ -499,7 +512,7 @@ address {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer-item:hover,
+.footer-item:focus {
     background-color: #31D0AA;
 }
