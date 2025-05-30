@@ -481,7 +481,7 @@ address {
     flex-direction: column;
 }
 
-.social-list .foot {
+.social-list.foot {
     gap: 16px;
 }
 
