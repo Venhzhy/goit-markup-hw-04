@@ -483,10 +483,12 @@ address {
 .footer-right {
     display: flex;
     flex-direction: column;
+
 }
 
 .social-list.foot {
     gap: 16px;
+    margin-top: 0;
 }
 
 .social-title {
@@ -495,6 +497,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin-bottom: 16px;
 }
 
 .footer-social-link {
